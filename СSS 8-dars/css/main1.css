@@ -1,0 +1,49 @@
+.wrap{
+    margin: 0 auto;
+    width: 1200px;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+}
+.menu-item{
+    width: 90px;
+    height: 100px;
+    list-style: none;
+    position: relative;
+    background-image: url("../rasm/1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 2px 0;
+    display: inline-block;
+}
+.menu-link a{
+    color: grey;
+    text-decoration: none;
+}
+
+.menu-item:nth-child(2){
+    background-position: -130px top;
+}
+.menu-item:nth-child(3){
+    background-position: -260px top;
+}
+.menu-item:nth-child(4){
+    background-position: -390px top;
+}
+.menu-item:nth-child(5){
+    background-position: -520px top;
+}
+
+.menu-link{
+    position: absolute;
+    top: 0;
+    left: 38px;
+    width: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 0;
+    transition: all 5s ease;
+}
